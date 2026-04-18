@@ -5,7 +5,7 @@ export const personalInfo = {
   role: "MERN Stack Developer",
   bio: "Hi, My name is Aryaabhisek Mahapatra, I build things for the web. I am a MERN stack developer passionate about creating scalable and efficient web applications.",
   email: "aryaabhisek661@gmail.com",
-  profileImage: "/ProfilePicPortfolio.jpeg",
+  profileImage: "https://github.com/Aryaabhisek/arya.abhisek/blob/main/frontend/public/ProfilePicPortfolio.jpeg?raw=true",
   social: {
     linkedin: "https://www.linkedin.com/in/aryaabhisekmahapatra",
     github: "https://github.com/Aryaabhisek",
