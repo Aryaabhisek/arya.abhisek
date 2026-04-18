@@ -60,7 +60,8 @@ export const education = [
     institution: "Srusty Academy of Management and Technology",
     location: "Bhubaneswar",
     year: "Post Graduation",
-    description: "Specialized in software development, database management, and web technologies."
+    description: "Specialized in software development, database management, and web technologies.",
+    CGPA: "8.81"
   },
   {
     id: 2,
@@ -68,7 +69,8 @@ export const education = [
     institution: "PIMIT Degree College",
     location: "Nayagarh",
     year: "Graduation",
-    description: "Focused on analytical thinking and problem-solving skills."
+    description: "Focused on analytical thinking and problem-solving skills.",
+    CGPA: "8.16"
   }
 ];
 
