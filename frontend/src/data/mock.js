@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Aryaabhisek Mahapatra",
   role: "MERN Stack Developer",
-  bio: "Hi, My name is Aryaabhisek Mahapatra, I build things for the web. I am a MERN stack developer passionate about creating scalable and efficient web applications.",
+  bio: "I build things for the web. I am a Full-stack developer passionate about creating scalable and efficient web applications.",
   email: "aryaabhisek661@gmail.com",
   profileImage: "https://github.com/Aryaabhisek/arya.abhisek/blob/main/frontend/public/ProfilePicPortfolio.jpeg?raw=true",
   social: {
@@ -46,10 +46,19 @@ export const projects = [
     id: 2,
     title: "Nat-Weather",
     description: "A Weather API based Web Application",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io"],
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/Aryaabhisek/Nat-Weather",
     liveDemo: "https://nat-weather.onrender.com/",
     image: "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?q=80&w=1109&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    id: 3,
+    title: "Multi-user Editor",
+    description: "It's a multi-user code editor",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io","YJS"],
+    github: "https://github.com/Aryaabhisek",
+    liveDemo: "",
+    image: "https://images.unsplash.com/photo-1537884944318-390069bb8665?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 
