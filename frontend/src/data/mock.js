@@ -5,7 +5,7 @@ export const personalInfo = {
   role: "MERN Stack Developer",
   bio: "Hi, My name is Aryaabhisek Mahapatra, I build things for the web. I am a MERN stack developer passionate about creating scalable and efficient web applications.",
   email: "aryaabhisek661@gmail.com",
-  profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aryaabhisek",
+  profileImage: "/ProfilePicPortfolio.jpeg",
   social: {
     linkedin: "https://www.linkedin.com/in/aryaabhisekmahapatra",
     github: "https://github.com/Aryaabhisek",
@@ -17,33 +17,39 @@ export const skills = [
   { name: "MongoDB", category: "Database" },
   { name: "Express.js", category: "Backend" },
   { name: "React.js", category: "Frontend" },
+  { name: "HTML5", category: "Frontend" },
+  { name: "CSS3", category: "Frontend" },
   { name: "Node.js", category: "Backend" },
   { name: "JavaScript", category: "Language" },
   { name: "Tailwind CSS", category: "Styling" },
   { name: "Git", category: "Tools" },
+  { name: "Github", category: "Tools" },
+  { name: "Railway", category: "Tools" },
+  { name: "Render", category: "Tools" },
   { name: "REST API", category: "Backend" },
   { name: "Java", category: "Language" },
-  { name: "Python", category: "Language" }
+  { name: "MySQL", category: "Database" },
+
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration. Features include real-time inventory updates and order tracking.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe API"],
-    github: "https://github.com/Aryaabhisek/ecommerce-platform",
-    liveDemo: "https://ecommerce-demo.example.com",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop"
+    title: "Triad-AI",
+    description: "A multi-model LLM Chatbot",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/Aryaabhisek/triad-ai",
+    liveDemo: "",
+    image: "https://plus.unsplash.com/premium_photo-1725985758251-b49c6b581d17?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 2,
-    title: "Task Management System",
-    description: "A collaborative task management application with real-time updates, team collaboration features, and progress tracking. Includes drag-and-drop functionality and notifications.",
+    title: "Nat-Weather",
+    description: "A Weather API based Web Application",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io"],
-    github: "https://github.com/Aryaabhisek/task-manager",
-    liveDemo: "https://taskmanager-demo.example.com",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop"
+    github: "https://github.com/Aryaabhisek/Nat-Weather",
+    liveDemo: "https://nat-weather.onrender.com/",
+    image: "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?q=80&w=1109&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 

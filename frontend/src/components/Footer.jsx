@@ -93,7 +93,7 @@ const Footer = () => {
               © {currentYear} Aryaabhisek Mahapatra. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm flex items-center">
-              Built with <Heart className="text-red-500 mx-2" size={16} /> using React & FastAPI
+              Built with <Heart className="text-red-500 mx-2" size={16} /> using React
             </p>
           </div>
         </div>
