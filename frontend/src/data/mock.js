@@ -83,12 +83,30 @@ export const education = [
   }
 ];
 
-export const contactFormSubmit = (formData) => {
-  // Mock form submission - will be replaced with actual API call
-  console.log('Form submitted (MOCK):', formData);
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({ success: true, message: 'Message sent successfully!' });
-    }, 1000);
-  });
+export const contactFormSubmit = async (formData) => {
+  const emailjs = (await import('@emailjs/browser')).default;
+
+  const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
+  if (!serviceId || !templateId || !publicKey) {
+    throw new Error('EmailJS configuration is missing. Check your .env file.');
+  }
+
+  // These template parameters must match your EmailJS template variables
+  const templateParams = {
+    from_name: formData.name,
+    from_email: formData.email,
+    message: formData.message,
+    to_name: 'Aryaabhisek',
+  };
+
+  const response = await emailjs.send(serviceId, templateId, templateParams, publicKey);
+
+  if (response.status === 200) {
+    return { success: true, message: 'Message sent successfully!' };
+  } else {
+    throw new Error('Failed to send message');
+  }
 };
